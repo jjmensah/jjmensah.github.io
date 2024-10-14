@@ -118,3 +118,13 @@ footer {
 .container {
     flex: 1;
 }
+
+.logo-link {
+    color: white; 
+    text-decoration: none; 
+    font-weight: bold;
+}
+
+.logo-link:hover {
+    color: #f1c40f; 
+}
