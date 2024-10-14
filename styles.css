@@ -1,4 +1,4 @@
-/* Basic reset */
+/* Reset */
 * {
     margin: 0;
     padding: 0;
@@ -6,56 +6,101 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f4f4f4;
-    padding: 20px;
-}
-
-/* Header styling */
-header {
-    text-align: center;
-    background-color: #333;
-    color: white;
-    padding: 20px 0;
-}
-
-header h1 {
-    margin-bottom: 10px;
-}
-
-nav ul {
-    list-style: none;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 10px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-/* Section styling */
-section {
-    margin: 20px 0;
-    padding: 20px;
-    background-color: white;
-    border-radius: 10px;
-}
-
-h2 {
-    margin-bottom: 10px;
     color: #333;
 }
 
-/* Footer styling */
+/* Header styling */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 20px;
+    color: white;
+}
+
+.main-header .logo h1 {
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f1c40f;
+}
+
+/* Hero section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-image: url('hero-bg.jpg'); /* Add a nice background image here */
+    background-size: cover;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.cta-btn {
+    background-color: #f1c40f;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-btn:hover {
+    background-color: #333;
+    color: white;
+}
+
+/* Footer */
 footer {
     text-align: center;
-    margin-top: 20px;
-    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.cta-btn {
+    background-color: #f1c40f;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-btn:hover {
     background-color: #333;
     color: white;
 }
