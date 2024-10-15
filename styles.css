@@ -208,3 +208,64 @@ footer {
 .social-links a:hover {
     color: #f1c40f; 
 }
+
+.about-section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-container {
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.about-image img {
+    max-width: 200px;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+.about-content {
+    flex-grow: 1;
+}
+
+.about-content h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.additional-text {
+    text-align: left;
+}
+
+.additional-text h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.additional-text p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
+}
