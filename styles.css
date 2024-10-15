@@ -61,7 +61,7 @@ body {
     padding: 100px 20px;
     background-image: url('hero-bg.jpg'); /* Add a nice background image here */
     background-size: cover;
-    color: white;
+    color: black;
 }
 
 .hero h2 {
