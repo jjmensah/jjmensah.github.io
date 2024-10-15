@@ -155,13 +155,12 @@ footer {
 }
 
 .contact-details a {
-    color: #333;
+    color: #121ebe;
     text-decoration: none;
-    font-weight: bold;
 }
 
 .contact-details a:hover {
-    color: #f1c40f; /* Optional hover effect */
+    color: #f1c40f; 
 }
 
 footer {
